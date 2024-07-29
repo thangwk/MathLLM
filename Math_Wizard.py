@@ -4,7 +4,7 @@ from langchain import LLMMathChain
 import streamlit as st # to render the user interface.
 from langchain_community.chat_message_histories import\
 StreamlitChatMessageHistory # stores message history
-key='sk-None-YxVGQQnGW8ByV6v7JTQsT3BlbkFJu2sa4D7G6DxM7LCa4g8H'
+
 
 llm=OpenAI(openai_api_key=key)
 llm.model_name = "gpt-3.5-turbo-instruct"
